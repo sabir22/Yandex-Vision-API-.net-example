@@ -13,13 +13,11 @@ https://yandex.ru/legal/cloud_aup/
 
 This solution was made as example of "how to" work with OCR recognition from Yandex - Yandex Visin service.
 
-First you need to read basic instruction - about what you will work with and how to get authentication options:https://cloud.yandex.ru/docs/vision/
+First you need to read basic instruction - about what you will work with and how to get authentication options: https://cloud.yandex.ru/docs/vision/
 There (in main class JYCR) you need to change 3 items:
-  folderID - your folder in yandex cloud service
-  token or apikey - authentication data for your account:
-    https://cloud.yandex.ru/docs/iam/operations/api-key/create
-    https://cloud.yandex.ru/docs/iam/operations/iam-token/create
-  lang - language in "['ru','en', ...]" format (https://cloud.yandex.ru/docs/vision/concepts/ocr/supported-languages)
+folderID - your folder in yandex cloud service
+token or apikey - authentication data for your account: https://cloud.yandex.ru/docs/iam/operations/api-key/create https://cloud.yandex.ru/docs/iam/operations/iam-token/create
+lang - language in "['ru','en', ...]" format (https://cloud.yandex.ru/docs/vision/concepts/ocr/supported-languages)
 
 How to work with JYCR, there in solutions you can find an example - winform application. 
 "open json" - open json response (text file) (from something like "curl").
