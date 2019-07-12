@@ -41,4 +41,4 @@ JYCR.ycRecognizeImageASYNC(fName) and JYCR.ycRecognizeImageSYNC(fName).
 
 With async operation you car run multiple recognition tasks.
 
-![Screenshot](ycv.png)
+![Screenshot](jycr.png)
