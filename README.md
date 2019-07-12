@@ -45,4 +45,3 @@ With async operation you car run multiple recognition tasks.
 
 This project is an example, so you are free to use it any way you like as a starting point for your yandex vision based solutions.
 
-[link] (Json.YC.Reader/JYCR.cs)
