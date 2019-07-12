@@ -24,10 +24,15 @@ token or apikey - authentication data for your account: https://cloud.yandex.ru/
 lang - language in "['ru','en', ...]" format (https://cloud.yandex.ru/docs/vision/concepts/ocr/supported-languages)
 
 Example - how to work with JYCR "JYCT_Test" - simple winform application. 
+
 "open json" - open json response (text file) (from something like "curl").
+
 "parse" - parse json response into text.
+
 "open image -> online rec" - recognize image using .net httpclient.
+
 "show image" - after online recognizing this will open image with rectangles over text strings and words. 
+
 Toolbar will show value of string and word while mouse pointer on it.
 Right click on mouse will copy word value to buffer.
 
