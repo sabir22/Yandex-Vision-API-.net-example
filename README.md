@@ -15,7 +15,7 @@ This solution was made as example of "how to" work with OCR recognition from Yan
 
 First you need to read basic instruction - about what you will work with and how to get authentication options: https://cloud.yandex.ru/docs/vision/
 
-There (in main class JYCR) you need to change 3 items:
+There (in main class JYCR - https://github.com/sabir22/Yandex-Vision-API-.net-example/blob/master/Json.YC.Reader/JYCR.cs) you need to change 3 items:
 
 folderID - your folder in yandex cloud service
 
