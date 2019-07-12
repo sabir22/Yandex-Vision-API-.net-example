@@ -11,7 +11,7 @@ Please read rules before using Yandex services
 https://yandex.ru/legal/cloud_oferta/
 https://yandex.ru/legal/cloud_aup/
 
-This solution was made as example of "how to" work with OCR recognition from Yandex - Yandex Visin service.
+This solution was made as example of "how to" work with OCR recognition from Yandex - Yandex Vision service.
 
 First you need to read basic instruction - about what you will work with and how to get authentication options: https://cloud.yandex.ru/docs/vision/
 
@@ -42,3 +42,5 @@ JYCR.ycRecognizeImageASYNC(fName) and JYCR.ycRecognizeImageSYNC(fName).
 With async operation you car run multiple recognition tasks.
 
 ![Screenshot](jycr.png)
+
+This project is an example, so you are free to use it any way you like as a starting point for your yandex vision based solutions.
